@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'; //เอาข้อมูลจาก Open-Library ขอ Java
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'; //component คือชิ้นส่วนของ UI ประกอบกันเป็นหน้าเว็บ Navbar (แถบเมนู) Footer (ท้ายเว็บ) Button Card หน้า Home
 import Footer from './components/Footer';
 import LineButton from './components/LineButton';
 import Home from './pages/Home';
